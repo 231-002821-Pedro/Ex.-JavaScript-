@@ -1,0 +1,86 @@
+body {
+  background: #eceff1;
+  font-family: Verdana, sans-serif;
+}
+
+.box {
+  max-width: 450px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.campo {
+  margin-bottom: 15px;
+}
+
+label {
+  font-weight: 600;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+}
+
+input.valido {
+  border-color: green;
+}
+
+input.invalido {
+  border-color: red;
+}
+
+.erro {
+  color: crimson;
+  font-size: 12px;
+  min-height: 14px;
+  display: block;
+}
+
+.senha-wrap {
+  display: flex;
+}
+
+.senha-wrap input {
+  flex: 1;
+}
+
+.senha-wrap button {
+  margin-left: 6px;
+  cursor: pointer;
+}
+
+.acoes {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background: seagreen;
+  color: #fff;
+}
+
+button[type="reset"] {
+  background: firebrick;
+  color: #fff;
+}
